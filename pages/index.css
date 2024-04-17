@@ -191,6 +191,7 @@
   display: inline-block;
 }
 
+/*Sessão de reserva de mesa*/
 .reservation {
   background-color: #d9e7ff;
   background-image: url(../images/background_reservation.svg);
@@ -205,17 +206,18 @@
   height: 100vh;
 }
 
+/*Título da sessão*/
 .reservation__title {
   font-family: "Inter", Arial;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  margin-top: 100px;
-  margin-bottom: 80px;
+  margin: 100px 0px 80px;
   padding: 0;
 }
 
+/*Formulário*/
 .reservation__form {
   display: flex;
   flex-direction: column;
@@ -225,12 +227,14 @@
   margin-bottom: 120px;
 }
 
-.form__fieldset {
+/*Cada sessão do formulário*/
+.reservation__form-fieldset {
   border: none;
   padding: 0%;
 }
 
-.form__input {
+/*Inputs do formulário: Nome. Número. Data e hora. E-mail*/
+.reservation__form-input {
   display: flex;
   font-family: "Inter", Arial;
   font-style: normal;
@@ -243,12 +247,14 @@
   width: 100%;
 }
 
+/*Estilo do placeholder - Nome. Número. E-mail*/
 .input::placeholder {
   margin-top: 15px;
   margin-left: 20px;
 }
 
-.form__label {
+/*Estilo do título de cada sessão do formulário*/
+.reservation__form-label {
   font-family: "Inter", Arial;
   font-style: normal;
   font-weight: 500;
@@ -257,11 +263,12 @@
   margin-bottom: 8px;
 }
 
-.form__label-checkbox {
-  margin: 0;
+.reservation__form-label-checkbox {
+  margin: 0px 12px 0px 0px;
 }
 
-.form__button {
+/*Botão para reservar uma mesa*/
+.reservation__form-button {
   border-radius: 4px;
   font-family: "Inter", Arial;
   font-style: normal;
@@ -274,18 +281,18 @@
   max-width: 385px;
 }
 
-.form__button:hover {
+.reservation__form-button:hover {
   opacity: 0.7;
 }
 
-.form__checkbox {
+.reservation__form-checkbox {
   border-radius: 2px;
   height: 20px;
   width: 20px;
-  margin-right: 2px;
+  margin: 0;
 }
 
-.form__fieldset-checkbox {
+.reservation__form-fieldset-checkbox {
   margin-top: 32px;
   margin-bottom: 120px;
 }
