@@ -10,7 +10,6 @@
     />
     <meta name="keywords" content="Biblioteca, Café, Triple Ten" />
     <meta name="author" content="Raíme Gomes Amador" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -51,7 +50,7 @@
           Esta é nossa zona de estudo! Temos aquele cafezinho para energizar
           você e vibrações aconchegantes para soltar a criatividade.
         </p>
-        <!-- Não achei necessário criar uma <div> para o título e uma para a descrição -->
+
         <img
           src="./images/inside_coffee_shop.png"
           alt="desenho de uma cafeteria"
@@ -120,26 +119,24 @@
           <!--Título da sessão-->
           <h2 class="reservation__title">Reservar uma mesa</h2>
           <!--Início do formulário-->
-          <form class="form reservation__form">
-            <fieldset class="reservation__form-fieldset">
+          <form class="form">
+            <fieldset class="form__fieldset">
               <!--Elemento no formulário para inserir o nome-->
-              <label class="reservation__form-label">Nome: *</label>
+              <label class="form__label">Nome: *</label>
               <input
                 type="text"
-                class="reservation__form-input"
+                class="form__input"
                 name="name"
                 placeholder="Nome e sobrenome"
                 required
               />
             </fieldset>
-            <fieldset class="reservation__form-fieldset">
+            <fieldset class="form__fieldset">
               <!--Elemento no formulário para inserir o número de convidados-->
-              <label class="reservation__form-label"
-                >Número de convidados: *</label
-              >
+              <label class="form__label">Número de convidados: *</label>
               <input
                 type="number"
-                class="reservation__form-input"
+                class="form__input"
                 name="number"
                 min="1"
                 max="8"
@@ -147,49 +144,87 @@
                 required
               />
             </fieldset>
-            <fieldset class="reservation__form-fieldset">
+            <fieldset class="form__fieldset">
               <!--Elemento no formulário para inserir a data-->
-              <label class="reservation__form-label">Data e hora: *</label>
+              <label class="form__label">Data e hora: *</label>
               <input
                 type="datetime-local"
-                class="reservation__form-input"
+                class="form__input"
                 name="date"
                 required
               />
             </fieldset>
-            <fieldset class="reservation__form-fieldset">
+            <fieldset class="form__fieldset">
               <!--Elemento no formulário para inserir o e-mail-->
-              <label class="reservation__form-label">Seu e-mail: *</label>
+              <label class="form__label">Seu e-mail: *</label>
               <input
                 type="email"
-                class="reservation__form-input"
+                class="form__input"
                 name="email"
                 placeholder="email@email.com"
                 required
               />
             </fieldset>
-            <button type="submit" class="reservation__form-button">
+            <button type="submit" class="form__button">
               Reservar uma mesa
             </button>
-            <fieldset
-              class="reservation__form-fieldset reservation__form-fieldset-checkbox"
-            >
+            <fieldset class="form__fieldset form__fieldset-checkbox">
               <!--Botão para concordar com os termos de uso-->
               <input
                 type="checkbox"
-                class="reservation__form-checkbox"
+                class="form__checkbox"
                 name="temos-de-uso"
                 required
               />
-              <label
-                class="reservation__form-label reservation__form-label-checkbox"
+              <label class="form__label-checkbox"
                 >Eu concordo com os termos de uso</label
               >
             </fieldset>
           </form>
         </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer" id="contact">
+        <div class="footer__content">
+          <div class="footer__logo">
+            <img src="./images/logo_coffeeshop_light.svg" alt="logo branco" />
+          </div>
+          <div class="footer__circle"></div>
+          <div class="footer__social">
+            <h3 class="footer__social-heading">Mídia social</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <img
+                  class="footer__social-icon"
+                  src="./images/facebook_white.svg"
+                  alt="Facebook icon"
+                />
+                <a
+                  href="https://www.facebook.com/tripleten-tech/"
+                  target="_blank"
+                  class="footer__social-link"
+                  >Facebook</a
+                >
+              </li>
+              <li class="footer__list-item">
+                <img
+                  class="footer__social-icon"
+                  src="./images/instagram_white.svg"
+                  alt="Instagram icon"
+                />
+                <a
+                  href="https://www.instagram.com/tripleten.brasil/"
+                  target="_blank"
+                  class="footer__social-link"
+                  >Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__copyright">
+          <p>© 2024 Raíme Gomes Amador.</p>
+        </div>
+      </footer>
     </div>
   </body>
 </html>

@@ -1,0 +1,83 @@
+/*Formulário*/
+.form {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 385px;
+  margin-bottom: 120px;
+}
+
+/*Cada sessão do formulário*/
+.form__fieldset {
+  border: none;
+  padding: 0%;
+}
+
+/*Inputs do formulário: Nome. Número. Data e hora. E-mail*/
+.form__input {
+  display: flex;
+  font-family: "Inter", Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  border-radius: 4px;
+  margin-bottom: 32px;
+  height: 60px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px 20px;
+}
+
+/*Estilo do título de cada sessão do formulário*/
+.form__label {
+  font-family: "Inter", Arial;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 8px;
+}
+
+.form__label-checkbox {
+  margin: 0;
+  padding-left: 12px;
+  font-family: "Inter", Arial;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/*Botão para reservar uma mesa*/
+.form__button {
+  border-radius: 4px;
+  font-family: "Inter", Arial;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #2f80ed;
+  color: #ffffff;
+  height: 60px;
+  max-width: 385px;
+}
+
+.form__button:hover {
+  opacity: 0.7;
+}
+
+.form__checkbox {
+  border-radius: 2px;
+  height: 20px;
+  width: 20px;
+  margin: 0;
+}
+
+.form__fieldset-checkbox {
+  margin-top: 32px;
+  margin-bottom: 120px;
+  display: flex;
+  justify-content: center;
+}

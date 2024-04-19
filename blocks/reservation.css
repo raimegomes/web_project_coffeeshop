@@ -1,0 +1,27 @@
+/*Sessão de reserva de mesa*/
+.reservation {
+  background-color: #d9e7ff;
+  background-image: url(../images/background_reservation.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  position: relative;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*Título da sessão*/
+.reservation__title {
+  font-family: "Inter", Arial;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+  padding-top: 100px;
+}
