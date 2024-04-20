@@ -1,4 +1,3 @@
-/*Formulário*/
 .form {
   display: flex;
   flex-direction: column;
@@ -8,13 +7,11 @@
   margin-bottom: 120px;
 }
 
-/*Cada sessão do formulário*/
 .form__fieldset {
   border: none;
   padding: 0%;
 }
 
-/*Inputs do formulário: Nome. Número. Data e hora. E-mail*/
 .form__input {
   display: flex;
   font-family: "Inter", Arial;
@@ -30,7 +27,6 @@
   padding: 15px 20px;
 }
 
-/*Estilo do título de cada sessão do formulário*/
 .form__label {
   font-family: "Inter", Arial;
   font-style: normal;
@@ -50,7 +46,6 @@
   line-height: 20px;
 }
 
-/*Botão para reservar uma mesa*/
 .form__button {
   border-radius: 4px;
   font-family: "Inter", Arial;
@@ -76,8 +71,8 @@
 }
 
 .form__fieldset-checkbox {
-  margin-top: 32px;
-  margin-bottom: 120px;
+  padding: 32px 0px 120px;
+  margin: 0;
   display: flex;
   justify-content: center;
 }

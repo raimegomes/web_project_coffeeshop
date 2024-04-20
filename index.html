@@ -57,7 +57,6 @@
           class="header__image"
         />
         <div class="header__footer">
-          <!-- Parte inferior do header-->
           <div class="header__paragraph-hours">
             <p class="header__paragraph">Horários:</p>
             <p class="header__paragraph">Segunda a sexta (10:00 – 19:00)</p>
@@ -70,18 +69,14 @@
           </div>
         </div>
       </header>
-      <!-- Conteúdo principal do site -->
       <main class="content">
-        <!-- Primeira sessão - receitas -->
         <section class="recipes" id="recipes">
           <h2 class="recipes__title">Receitas</h2>
           <p class="recipes__subtitle">
             Confira algumas receitas que coletamos para seu lanchinho caseiro:
           </p>
           <div class="recipes__videos">
-            <!-- div recipes__videos contém o iframe e um texto que fica abaixo do vídeo -->
             <div class="recipes__video-item">
-              <!-- Esta div (recipes__video-item) contém o primeiro vídeo e seu respectivo texto -->
               <iframe
                 class="recipes__iframe"
                 src="https://www.youtube.com/embed/j6VlT_jUVPc?si=ng6rsjM4pzf1XMEb"
@@ -90,15 +85,12 @@
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
               ></iframe>
-              <!-- Texto do primeiro vídeo. É uma div dentro da outra pois preciso que o tempo
-              fique em um espaçamento diferente -->
               <div class="recipes__video-caption">
                 Receita Aeropress
                 <div class="recipes__video-caption-time">~5 min</div>
               </div>
             </div>
             <div class="recipes__video-item">
-              <!-- Segundo vídeo-->
               <iframe
                 class="recipes__iframe"
                 src="https://www.youtube.com/embed/st571DYYTR8?si=t4AZ3nQgc295V1jc"
@@ -107,7 +99,6 @@
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
               ></iframe>
-              <!-- Texto abaixo do segundo vídeo -->
               <div class="recipes__video-caption">
                 Receita de Prensa Francesa
                 <div class="recipes__video-caption-time">~15 min</div>
@@ -116,12 +107,9 @@
           </div>
         </section>
         <section class="reservation" id="reservation">
-          <!--Título da sessão-->
           <h2 class="reservation__title">Reservar uma mesa</h2>
-          <!--Início do formulário-->
           <form class="form reservation__form">
             <fieldset class="form__fieldset">
-              <!--Elemento no formulário para inserir o nome-->
               <label class="form__label">Nome: *</label>
               <input
                 type="text"
@@ -132,7 +120,6 @@
               />
             </fieldset>
             <fieldset class="form__fieldset">
-              <!--Elemento no formulário para inserir o número de convidados-->
               <label class="form__label">Número de convidados: *</label>
               <input
                 type="number"
@@ -145,7 +132,6 @@
               />
             </fieldset>
             <fieldset class="form__fieldset">
-              <!--Elemento no formulário para inserir a data-->
               <label class="form__label">Data e hora: *</label>
               <input
                 type="datetime-local"
@@ -155,7 +141,6 @@
               />
             </fieldset>
             <fieldset class="form__fieldset">
-              <!--Elemento no formulário para inserir o e-mail-->
               <label class="form__label">Seu e-mail: *</label>
               <input
                 type="email"
@@ -169,7 +154,6 @@
               Reservar uma mesa
             </button>
             <fieldset class="form__fieldset form__fieldset-checkbox">
-              <!--Botão para concordar com os termos de uso-->
               <input
                 type="checkbox"
                 class="form__checkbox"
