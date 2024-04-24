@@ -6,6 +6,8 @@ Este é o site do café fictício na Biblioteca Triple Peaks. O design segue o e
 simbolizam mesas de centro e xícaras.
 — Danila, designer.
 
+:globe_with_meridians: Link para acesso à página web :arrow_right: https://raimegomes.github.io/web_project_coffeeshop/
+
 :computer: Tecnologias utilizadas: HTML e CSS.
 
 :octocat: Pessoas Autoras: Este projeto foi realizado por Raíme Gomes, baseado em um design brief da Triple Ten Bootcamp.
