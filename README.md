@@ -10,4 +10,4 @@ simbolizam mesas de centro e xícaras.
 
 :computer: Tecnologias utilizadas: HTML e CSS.
 
-:octocat: Pessoas Autoras: Este projeto foi realizado por Raíme Gomes, baseado em um design brief da Triple Ten Bootcamp.
+:octocat: Pessoas Autoras: Este projeto foi realizado por mim (Raíme Gomes), baseado em um design brief da Triple Ten Bootcamp.
